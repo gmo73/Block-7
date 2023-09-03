@@ -1,13 +1,20 @@
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 50px;
+    padding: 0px;
 }
 
 .header {
-    text-align: center;
-    width: 100;
-    height: 100;
+  text-align: center;
+}
+
+
+.container {
+    object-align: center;
+   
+
+
+     
 
 
  
