@@ -6,31 +6,34 @@
     <title>Combination</title>
     <title>Gradient Background </title>
     <link rel="stylesheet" href="style.css">
-    
-    
+<body>
+     <header class="gradient"></header>
 
-<body2>
-    <header class="intro">
-      </header>
+     <div id="combo1"></div>
+     <div id="combo2"></div>
+     <div id="combo3"></div>
 
-    <section class="boxes">
-        <class="container">
-    </section>
+     <script>
+        let x = combination1(5, 5);
+        document.getElementById("combo1").innerHTML = x
+        function combination1(a, b) {
+        return a + b;
+        }
 
-    <div class="box1">      
-        <h2>Canned</h2>
-    </div> 
+        let y = combination2(60, 20);
+        document.getElementById("combo2").innerHTML = y
+        function combination2(c, d) {
+        return c - d;
+        }
 
-    <div class="box2">      
-        <h2>Canned</h2>
-    </div>
+        let z = combination3(11, 3, 6);
+        document.getElementById("combo3").innerHTML = z
+        function combination3(e, f, g) {
+        return e * f + g
+        }
 
-    <div class="box3">      
-         <h2>Canned</h2>
-     </div>    
-     
-     <script src="app.js"></script>
-</body2>
-</html>
 
-          
+           </script>
+         </body>
+     </html>
+  </header>
