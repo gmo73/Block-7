@@ -35,8 +35,11 @@
     
 
 h2 {
-    color: red;
-    
+    color: white;
+}
+
+h3 {
+    color: white;
 }
 
 .image-contain {
@@ -44,6 +47,8 @@ h2 {
 }
 
 #combo1 {
+    color: red;
+    font-size: xxx-large;
     position: absolute;
     top: 50%;
     left: 25%;
@@ -52,15 +57,20 @@ h2 {
 }
 
 #combo2 {
+    color: red;
+    font-size: xxx-large;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 10px
-    color: red;
+    
+
     }
 
 #combo3 {
+    color: red;
+    font-size: xxx-large;
     position: absolute;
     top: 50%;
     left: 75%;
